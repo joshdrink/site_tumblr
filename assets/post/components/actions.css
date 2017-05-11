@@ -1,0 +1,29 @@
+/* =============================================================================
+
+    ACTIONS CSS
+    Authored by Josh Beveridge
+
+============================================================================= */
+.post-actions {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.post-actions__item {
+
+}
+
+.post-actions__link {
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.post-actions__icon {
+    color: $white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,56 @@
+/* =============================================================================
+
+    PRIMARY CSS
+    Property of Norex
+    Authored by Josh Beveridge and Justin Bellefontaine
+
+============================================================================= */
+
+/* SPEC ===================================================================== */
+
+    /* Spec: Palette ======================================================== */
+    @import 'spec/palette.css';
+
+    /* Spec: Settings ======================================================= */
+    @import 'spec/settings.css';
+
+    /* Spec: Typography ===================================================== */
+    @import 'spec/typography.css';
+
+    /* Spec: Forms ========================================================== */
+    @import 'spec/forms/forms-base.css';
+
+    /* Spec: Spec > Plugins: UI Datepicker ================================== */
+    /*@import 'spec/plugins/uidatepicker.css';*/
+
+/* LAYOUT =================================================================== */
+
+    /* Layout: Grid ========================================================= */
+    @import 'layout/grid.css';
+
+    /* Layout: Grid (IE11) ================================================== */
+    @import 'layout/grid-ie11.css';
+
+/* COMPONENTS =============================================================== */
+
+    /* Component: Cards ===================================================== */
+    @import 'components/cards.css';
+
+    /* Component: Post Actions ============================================== */
+    @import 'components/actions.css';
+
+    /* Component: Post Tags ================================================= */
+    @import 'components/tags.css';
+
+/* POSTS ==================================================================== */
+
+    /* Posts: Text Post ===================================================== */
+    @import 'posts/text-post.css';
+
+    /* Posts: Photo Post ==================================================== */
+    @import 'posts/photo-post.css';
+
+/* BLOCKS =================================================================== */
+
+    /* Blocks: Hero (Slick Carousel) ======================================== */
+    @import 'blocks/landing-hero.css';
